@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="frm1"  action="">
+  First name: <input type="text" name="fname" required>
+</form> <br> <br>
+
+<button onclick="myFunction()">Submit the name Here</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("frm1");
+  var text = "";
+  var txt;
+  var i;
+  for (i = 0; i < x.length ;i++) {
+    text += x.elements[i].value + "<br>";
+  }
+  if (text[0]=='j') {
+    txt = "Goodbye";
+  }
+  else if (text[0]=='J'){
+  txt="Goodbye";}
+  else {
+    txt = "Hello";
+  } 
+   document.getElementById("demo").innerHTML = txt +"  " + text;
+}
+</script>
+
+</body>
+</html>
