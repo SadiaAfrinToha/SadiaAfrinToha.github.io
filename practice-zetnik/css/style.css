@@ -71,12 +71,12 @@ body {
     text-align: center;
   }
 }
-welcome{
+.welcome{
   font-size: 40px;
   word-spacing: 20px;
   font-family: 'Architects Daughter', cursive;
 }
 .wc1{
-	float: right;
-	font-size: 13px;
+  font-size: 15px;
+  margin-left: 130px;
 }
