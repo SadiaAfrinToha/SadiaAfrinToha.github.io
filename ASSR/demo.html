@@ -1,0 +1,2659 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Robotic Society of RUET (RSR) is a place for robotics and automation students, enthusiasts and hobbyists from RUET. It facilitates collaboration, skill sharing and learning among the members focusing both professional skill development and competitive programs organized around the country and abroad.">
+    <meta name="keywords" content="Robotic,Society,of,RUET,(RSR),is,a,place,for,robotics,and,automation,students,,enthusiasts,and,hobbyists,from,RUET.,It,facilitates,collaboration,,skill,sharing,and,learning,among,the,members,focusing,both,professional,skill,development,and,competitive,programs,organized,around,the,country,and,abroad.">
+    <meta property="og:title" content="Robotic Society of RUET" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ruet-rsr.org" />
+    <meta property="og:image" content="https://ruet-rsr.org/public/storage/sitebasics/TCMS-home-RSR-RUET-8928-8862.jpeg" />
+    <title>RSR-RUET - Robotic Society of RUET</title>
+    
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="https://ruet-rsr.org/public/frontends/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="https://ruet-rsr.org/public/frontends/css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="https://ruet-rsr.org/public/frontends/css/owl.theme.default.css" />
+    <link type="text/css" rel="stylesheet" href="https://ruet-rsr.org/public/frontends/css/magnific-popup.css" />
+    	<link rel="stylesheet" href="https://ruet-rsr.org/public/frontends/css/font-awesome.css">
+	<link rel="shortcut icon" href="https://ruet-rsr.org/public/storage/sitebasics/TCMS-favicon-TEAMCMS-7008.png">
+
+    <style>
+/* -- typography -- */
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    color: #868F9B;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #10161A;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+a {
+    color: #e53935;
+    text-decoration: none;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.8;
+    color: #e53935;
+}
+
+.main-color {
+    color: #e53935;
+}
+
+.white-text {
+    color: #FFF;
+}
+
+::-moz-selection {
+    background-color: #e53935;
+    color: #FFF;
+}
+
+::selection {
+    background-color: #e53935;
+    color: #FFF;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.ribbon {
+    position: absolute;
+    background-color: #e53935;
+    color: #FFFFFF;
+    width: 100px;
+    text-align: center;
+    border-radius: 0px 0px 0px 10px;
+    top: 0;
+    right: 0;
+}
+
+/* -- section  -- */
+
+.section {
+    position: relative;
+}
+
+.md-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.sm-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/* --  background section  -- */
+
+.bg-grey {
+    background-color: #FAFAFA;
+    border-top: 1px solid #FAFAFA;
+    border-bottom: 1px solid #FAFAFA;
+}
+
+.bg-grey-deep {
+    background-color: #F4F4F4;
+    border-top: 1px solid #F4F4F4;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.bg-dark {
+    background-color: #1C1D21;
+}
+
+
+/* --  background image section  -- */
+
+.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #1C1D21;
+}
+
+
+/* --  section header  -- */
+
+.section-header {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-header .title {
+    text-transform: capitalize;
+}
+
+.title:after {
+    content:"";
+  	display:block;
+  	height:3px;
+  	width:100%;
+  	background-color: #e53935;
+    margin-top: 15px;
+}
+
+.text-center .title:after {
+    margin: 20px auto 0px;
+}
+
+/* --  Input  -- */
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
+    height: 40px;
+    width: 100%;
+    border: none;
+	  background: #F4F4F4;
+    border-bottom: 2px solid #EEE;
+    color: #354052;
+    padding: 0px 10px;
+    opacity: 0.5;
+    -webkit-transition: 0.2s border-color, 0.2s opacity;
+    transition: 0.2s border-color, 0.2s opacity;
+}
+
+textarea {
+    padding: 10px 10px;
+    min-height: 80px;
+    resize: vertical;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="url"]:focus, input[type="tel"]:focus, textarea:focus {
+    border-color: #e53935;
+    opacity: 1;
+}
+
+.bullete .bullete-box {
+    position: absolute;
+    left: 0;
+    height: 30px;
+    width: 140px;
+    z-index: 989;
+    background-color: #e53935;
+    color: #FAFAFA;
+}
+
+.bullete .bullete-rail {
+    position: absolute;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 988;
+    background-color: #F4F4F4;
+    color: #1E1E1E;
+}
+
+/* --  Buttons  -- */
+
+.main-btn, .white-btn, .outline-btn {
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 3px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+.main-btn {
+    background: #e53935;
+    color: #FFF;
+}
+
+.white-btn {
+    background: #FFF;
+    color: #10161A !important;
+}
+
+.outline-btn {
+    background: transparent;
+    color: #e53935 !important;
+    border-color: #e53935;
+}
+
+.main-btn:hover, .white-btn:hover, .outline-btn:hover {
+    opacity: 0.8;
+}
+
+
+/*------------------------------------*\
+	Logo
+\*------------------------------------*/
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand .logo, .navbar-brand .logo-alt {
+    max-height: 50px;
+    display: block;
+}
+
+#nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
+	display: none;
+}
+
+#nav.nav-transparent:not(.fixed-nav) .navbar-brand .logo {
+	display: none;
+}
+
+#nav.fixed-nav .navbar-brand .logo-alt {
+    display: none;
+}
+
+@media  only screen and (max-width: 767px) {
+    #nav.nav-transparent .navbar-brand .logo-alt {
+        display: none !important;
+    }
+    #nav.nav-transparent .navbar-brand .logo {
+        display: block !important;
+    }
+}
+
+
+/*------------------------------------*\
+	Navigation
+\*------------------------------------*/
+
+#nav {
+    padding: 10px 0px;
+    background: #FFF;
+    -webkit-transition: 0.2s padding;
+    transition: 0.2s padding;
+    z-index: 999;
+}
+
+#nav.navbar {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+#nav.fixed-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0px 0px;
+    background-color: #FFF !important;
+    border-bottom: 1px solid #EEE;
+}
+
+#nav.nav-transparent {
+    background: transparent;
+}
+
+
+/* -- default nav -- */
+
+@media  only screen and (min-width: 768px) {
+    .main-nav li {
+        padding: 0px 15px;
+    }
+    .main-nav li a {
+        font-size: 14px;
+        -webkit-transition: 0.2s color;
+        transition: 0.2s color;
+    }
+    .main-nav>li>a {
+        color: #10161A;
+        padding: 15px 0px;
+    }
+    #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
+        color: #fff;
+    }
+    .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
+        background: transparent;
+        color: #e53935;
+    }
+    .main-nav>li>a:after {
+        content: "";
+        display: block;
+        background-color: #e53935;
+        height: 2px;
+        width: 0%;
+        margin: auto;
+        -webkit-transition: 0.2s width;
+        transition: 0.2s width;
+    }
+    .main-nav>li>a:hover:after, .main-nav>li.active>a:after {
+        width: 100%;
+    }
+    /* dropdown */
+    .has-dropdown {
+        position: relative;
+    }
+    .has-dropdown>a:before {
+        font-family: 'FontAwesome';
+        content: "\f054";
+        font-size: 6px;
+        margin-left: 6px;
+        float: right;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        -webkit-transition: 0.2s transform;
+        transition: 0.2s transform;
+    }
+    .dropdown {
+        position: absolute;
+        right: -50%;
+        top: 0;
+        background-color: #e53935;
+        width: 200px;
+        -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
+        box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
+        -webkit-transform: translateY(15px) translateX(50%);
+        -ms-transform: translateY(15px) translateX(50%);
+        transform: translateY(15px) translateX(50%);
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+    }
+    .main-nav>.has-dropdown>.dropdown {
+        top: 100%;
+        right: 50%;
+    }
+    .main-nav>.has-dropdown>.dropdown .dropdown.dropdown-left {
+        right: 150%;
+    }
+    .dropdown li a {
+        display: block;
+        color: #FFF;
+        border-top: 1px solid rgba(250, 250, 250, 0.1);
+        padding: 10px 0px;
+    }
+    .dropdown li:nth-child(1) a {
+        border-top: none;
+    }
+    .has-dropdown:hover>.dropdown {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translateY(0px) translateX(50%);
+        -ms-transform: translateY(0px) translateX(50%);
+        transform: translateY(0px) translateX(50%);
+    }
+    .has-dropdown:hover>a:before {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .nav-collapse {
+        display: none;
+    }
+}
+
+
+/* -- mobile nav -- */
+
+@media  only screen and (max-width: 767px) {
+    #nav {
+        padding: 0px 0px;
+    }
+    #nav.nav-transparent {
+        background: #FFF;
+    }
+    .main-nav {
+        position: fixed;
+        right: 0;
+        height: calc(100vh - 80px);
+        -webkit-box-shadow: 0px 80px 0px 0px #1C1D21;
+        box-shadow: 0px 80px 0px 0px #1C1D21;
+        max-width: 250px;
+        width: 0%;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+        margin: 0;
+        overflow-y: auto;
+        background: #1C1D21;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+    }
+    #nav.open .main-nav {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
+        width: 100%;
+    }
+    .main-nav li {
+        border-top: 1px solid rgba(250, 250, 250, 0.1);
+    }
+    .main-nav li a {
+        display: block;
+        color: #FFF;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+    }
+    .main-nav>li.active {
+        border-left: 6px solid #e53935;
+    }
+    .main-nav li a:hover, .main-nav li a:focus {
+        background-color: #e53935;
+        color: #FFF;
+        opacity: 1;
+    }
+    .has-dropdown>a:after {
+        content: "\f054";
+        font-family: 'FontAwesome';
+        float: right;
+        -webkit-transition: 0.2s -webkit-transform;
+        transition: 0.2s -webkit-transform;
+        transition: 0.2s transform;
+        transition: 0.2s transform, 0.2s -webkit-transform;
+    }
+    .dropdown {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        background: rgba(250, 250, 250, 0.1);
+    }
+    .dropdown li a {
+        padding: 6px 10px;
+    }
+    .has-dropdown.open-drop>a:after {
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .has-dropdown.open-drop>.dropdown {
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+    }
+}
+
+
+/* -- nav btn collapse -- */
+
+.nav-collapse {
+    position: relative;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.nav-collapse span {
+    display: block;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+}
+
+.nav-collapse span:before, .nav-collapse span:after {
+    content: "";
+    display: block;
+}
+
+.nav-collapse span, .nav-collapse span:before, .nav-collapse span:after {
+    height: 4px;
+    background: #10161A;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.nav-collapse span:before {
+    -webkit-transform: translate(0%, 10px);
+    -ms-transform: translate(0%, 10px);
+    transform: translate(0%, 10px);
+}
+
+.nav-collapse span:after {
+    -webkit-transform: translate(0%, -14px);
+    -ms-transform: translate(0%, -14px);
+    transform: translate(0%, -14px);
+}
+
+#nav.open .nav-collapse span {
+    background: transparent;
+}
+
+#nav.open .nav-collapse span:before {
+    -webkit-transform: translateY(0px) rotate(-135deg);
+    -ms-transform: translateY(0px) rotate(-135deg);
+    transform: translateY(0px) rotate(-135deg);
+}
+
+#nav.open .nav-collapse span:after {
+    -webkit-transform: translateY(-4px) rotate(135deg);
+    -ms-transform: translateY(-4px) rotate(135deg);
+    transform: translateY(-4px) rotate(135deg);
+}
+
+
+/*------------------------------------*\
+	Header
+\*------------------------------------*/
+
+header {
+    position: relative;
+}
+
+#home {
+    height: 100vh;
+}
+
+#home .home-wrapper {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.home-content h1 {
+  text-transform: uppercase;
+}
+.home-content button {
+  margin-top: 20px;
+}
+
+.header-wrapper h2 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+
+/*------------------------------------*\
+	About
+\*------------------------------------*/
+
+.about {
+    position: relative;
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid #EEE;
+    margin: 15px 0px;
+}
+
+.about i {
+    font-size: 36px;
+    color: #e53935;
+    margin-bottom: 20px;
+}
+
+.about:after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.about:hover:after {
+    width: 100%;
+}
+
+.about h3 {
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.about:hover h3 {
+    color: #fff;
+}
+
+
+/*------------------------------------*\
+	Portfolio
+\*------------------------------------*/
+
+.work {
+    position: relative;
+    padding: 20px;
+}
+
+.work>img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.work .overlay {
+    background: #10161A;
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    /* right: 0px; */
+    bottom: 0px;
+    opacity: 0;
+    width : 0%;
+    height : 0%;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.work:hover .overlay {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.work .work-content {
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.work .work-content h3 {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    opacity: 0;
+    color: #FFF;
+    margin-bottom: 10px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.work:hover .work-content h3 {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.work .work-content span {
+    display: block;
+    text-transform: uppercase;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    opacity: 0;
+    color: #e53935;
+    margin-bottom: 5px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.work:hover .work-content span {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.work .work-link {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+.work .work-link a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #e53935;
+    color: #FFF;
+    line-height: 50px;
+    text-align: center;
+}
+
+.work:hover .work-link {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    opacity: 1;
+}
+
+
+/*------------------------------------*\
+	Services
+\*------------------------------------*/
+
+.service {
+    position: relative;
+    padding: 40px 20px 40px 70px;
+    margin: 15px 0px;
+    border: 1px solid #EEE;
+}
+
+.service i {
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #e53935;
+    border-radius: 50%;
+}
+
+.service:after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.service:hover:after {
+    width: 100%;
+}
+
+.service h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+.service:hover h3 {
+    color: #fff;
+}
+
+/*------------------------------------*\
+	Why choose us
+\*------------------------------------*/
+
+.feature {
+    margin: 15px 0px;
+}
+.feature i {
+    float: left;
+    padding: 5px;
+    border-radius: 50%;
+    color: #e53935;
+    border: 1px solid #e53935;
+    margin-right: 5px;
+}
+
+/*------------------------------------*\
+	Numbers
+\*------------------------------------*/
+
+.number {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.number i {
+    color: #e53935;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.number h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+/*------------------------------------*\
+	Pricing
+\*------------------------------------*/
+
+.pricing {
+    position: relative;
+    text-align: center;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    z-index: 11;
+    margin: 15px 0px;
+}
+
+.pricing::after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s height;
+    transition: 0.2s height;
+}
+
+.pricing:hover:after {
+    height: 100%;
+}
+
+.pricing .price-head {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pricing .price-title {
+    display: block;
+    padding: 40px 0px 20px;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.pricing:hover .price-title {
+    color: #e53935;
+}
+
+.pricing .price {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #e53935;
+}
+
+.pricing .price h3 {
+  font-size: 42px;
+  margin: 0px;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.pricing:hover .price h3 {
+    color: #fff;
+}
+
+.pricing .duration {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #10161A;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.pricing:hover .duration {
+    color: #fff;
+}
+
+.pricing .price-btn {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/*------------------------------------*\
+	Testimonial
+\*------------------------------------*/
+
+.testimonial {
+    margin: 15px 0px;
+}
+
+.testimonial-meta {
+    position: relative;
+    padding-left: 90px;
+    height: 70px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.testimonial img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+}
+
+.testimonial h3 {
+    margin-bottom: 5px;
+}
+
+.testimonial span {
+    font-size: 14px;
+    color: #e53935;
+    text-transform: uppercase;
+}
+
+
+/*------------------------------------*\
+	Team
+\*------------------------------------*/
+
+.team {
+    position: relative;
+    background-color: #F4F4F4;
+    padding: 40px 20px;
+    margin: 15px 0px;
+    height : 430px;
+}
+
+.team::after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 0%;
+    width: 0%;
+    z-index: 1;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.team:hover:after {
+    height: 100%;
+    width: 100%;
+}
+
+.team-img {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 11;
+}
+
+.team-img>img {
+    width: 253px;
+    height: 253px;
+    object-fit: cover;
+}
+
+.team .overlay {
+    background: #1C1D21;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+.team:hover .overlay {
+    opacity: 0.8;
+}
+
+.team .team-content {
+    text-align: center;
+    position: relative;
+    z-index: 11;
+}
+
+.team .team-content h3 {
+    margin-bottom: 5px;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.team .team-content span {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.team:hover .team-content h3 {
+    color: #FFF;
+}
+
+.team:hover .team-content span {
+    color: #e53935;
+}
+
+.team .team-social {
+    position: absolute;
+    bottom: 0;
+    opacity: 1;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    z-index: 11;
+}
+
+.team .team-social a {
+    display: inline-block;
+    width: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #e53935;
+    color: #FFF;
+}
+
+.team:hover .team-social {
+    opacity: 1;
+}
+
+
+@media  only screen and (max-width: 768px) {
+    .team {
+        height : 490px;
+    }
+
+    .team-img>img {
+        width: 320px;
+        height: 320px;
+        object-fit: cover;
+    }
+
+}
+
+/*------------------------------------*\
+	Events
+\*------------------------------------*/
+.event {
+    background-color: #FAFAFA;
+    filter: drop-shadow(0px 0px 4px #CCCCCC);
+    transition : all 0.2s;
+}
+.event:hover {
+    filter: drop-shadow(0px 0px 7px #CCCCCC);
+}
+
+.event .event-links {
+    position: relative;
+    bottom: 0;
+}
+
+.event .event-links a {
+    margin-right: 10px;
+}
+
+.event .event-meta li {
+    display: inline-block;
+    font-size: 14px;
+    color: #10161A;
+    margin-right: 10px;
+}
+
+.event .event-meta li i {
+    color: #e53935;
+    margin-right: 5px;
+}
+
+.white-bar {
+    background-color: #FAFAFA;
+    filter: drop-shadow(0px 0px 1px #CCCCCC);
+}
+
+.masonry-grid {
+    width: 32%;
+}
+
+.overlay-message {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .masonry-grid {
+        width: 99%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .masonry-grid {
+        width: 49%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: ) {
+  
+    .masonry-grid {
+        width: 32%;
+    }
+}
+  
+}
+#event .poster {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+#event .fixed-div {
+    background-color: #FAFAFA;
+    filter: drop-shadow(0px 0px 1px #CCCCCC);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#event .event-accordion {
+    background: #e53935;
+    padding: 10px;
+    color: #FAFAFA;
+}
+
+#event .event-accordion h2{
+    color: #FAFAFA;
+    text-align: center;
+}
+#event .event-accordion p{
+    color: #FAFAFA;
+    text-align: center;
+}
+
+#event .bottom-link h3 {
+    border-bottom: #e53935 2px solid;
+}
+
+#event #owl-slider .item img{
+    display: block;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    object-fit:cover;
+}
+
+.card-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog {
+    background-color: #FFF;
+    margin: 15px 0px;
+    filter: drop-shadow(0px 0px 4px #CCCCCC);
+    transition: all 0.2s;
+}
+
+.blog:hover {
+    filter: drop-shadow(0px 0px 7px #CCCCCC);
+}
+
+.blog .blog-content {
+    padding: 20px 20px 40px;
+}
+
+.blog .blog-meta {
+    margin-bottom: 20px;
+}
+
+.blog .blog-meta li {
+    display: inline-block;
+    font-size: 14px;
+    color: #10161A;
+    margin-right: 10px;
+}
+
+.blog .blog-meta li i {
+    color: #e53935;
+    margin-right: 5px;
+}
+
+.ul-meta {
+    text-align: right;
+}
+
+.ul-meta li {
+    display: inline-block;
+    font-size: 10px;
+    color: #10161A;
+    margin-right: 10px;
+}
+
+.ul-meta li i {
+    color: #e53935;
+    margin-right: 5px;
+}
+
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+
+/*------------------------------------*\
+	Blog post
+\*------------------------------------*/
+.blog-single {
+    background-color: #FFF;
+    margin: 15px 0px;
+}
+
+.blog-single .blog-meta {
+    margin-bottom: 20px;
+}
+
+.blog-single .blog-meta li {
+    display: inline-block;
+    font-size: 14px;
+    color: #10161A;
+    margin-right: 10px;
+}
+
+.blog-single .blog-meta li i {
+    color: #e53935;
+    margin-right: 5px;
+}
+
+#main .blog-single .blog-content {
+    padding: 20px 20px 40px;
+}
+
+#main .blog-single {
+  margin-top: 0px;
+}
+
+.blog-author {
+    margin: 40px 0px;
+}
+
+.blog-author .media .media-left {
+    padding-right: 20px;
+}
+
+.blog-author .media {
+    padding: 20px;
+    border: 1px solid #EEE;
+}
+
+.blog-author .media .media-object {
+    width: 50px;
+    display: inline-block;
+}
+
+.blog-author .media .media-heading h3 {
+
+    text-transform: uppercase;
+}
+
+.blog-author .media .media-heading .author-social {
+  float: right;
+}
+
+.blog-author .author-social a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: #FFF;
+    background-color: #e53935;
+}
+
+
+#aside .widget {
+    margin-bottom: 40px;
+}
+
+.widget h3 {
+  text-transform: uppercase;
+}
+
+
+/* -- posts sidebar -- */
+
+.widget-post {
+    min-height: 70px;
+    margin-bottom: 25px;
+}
+
+.widget-post img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.widget-post a {
+    display: block;
+    color: #10161A;
+}
+
+.widget-post a:hover {
+    color: #e53935;
+}
+
+.widget-post .blog-meta {
+    display: inline-block;
+}
+
+.widget-post .blog-meta li {
+    display: inline-block;
+    margin-right: 5px;
+    color: #e53935;
+    font-size: 12px;
+}
+
+.widget-post li i {
+    color: #e53935;
+    margin-right: 5px;
+}
+
+#profile .table tr,
+#profile .table th,
+#profile .table td {
+    border: none;
+}
+
+#profile .table td {
+    font-size: 12px;
+}
+
+#profile .social-links {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+#profile .social-links a {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2px;
+    margin: 2px;
+    display: inline-block;
+    background-color: #e53935;
+}
+
+
+
+/*------------------------------------*\
+	Contact
+\*------------------------------------*/
+
+.contact {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.contact i {
+    font-size: 36px;
+    color: #e53935;
+    margin-bottom: 20px;
+}
+
+.base-form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.base-form .input {
+    margin-bottom: 20px;
+}
+
+
+.base-form .input:nth-child(1), .base-form .input:nth-child(2) {
+    width: calc(50% - 10px);
+}
+
+.base-form .input:nth-child(2) {
+    margin-left: 15px;
+}
+
+.side-form {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.side-form label {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.side-form .input {
+    margin-bottom: 20px;
+}
+
+/*------------------------------------*\
+	Footer
+\*------------------------------------*/
+
+#footer {
+    position: relative;
+}
+
+.footer-logo {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.footer-logo>a>img {
+    width: 100%;
+    max-height: 80px;
+}
+
+.footer-follow {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-follow li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 13px;
+}
+
+.footer-follow li a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #e53935;
+  color:#FFF;
+}
+
+.footer-copyright {
+    bottom: -130px;
+    position: absolute;
+}
+
+.footer-copyright p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-heading {
+    margin-bottom: 20px;
+}
+
+.footer-heading p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #EEE;
+    border-bottom: #868F9B 1px solid;
+}
+
+
+/*------------------------------------*\
+	Responsive
+\*------------------------------------*/
+
+
+@media  only screen and (max-width: 991px) {}
+
+@media  only screen and (max-width: 767px) {
+  .section-header h2.title {
+  		font-size:31.5px;
+	}
+
+  .main-btn , .default-btn , .outline-btn , .white-btn  {
+  		padding: 8px 22px;
+  		font-size:14px;
+	}
+
+  .home-content h1 {
+		font-size:36px;
+	}
+
+  .header-wrapper {
+      display: none;
+  }
+
+  .footer-copyright {
+        bottom: -50px;
+        position: absolute;
+    }
+
+    .footer-heading p, .footer-heading>ul>li{
+        text-align: center;
+    }
+}
+
+@media  only screen and (max-width: 480px) {
+  #portfolio [class*='col-xs'] {
+		  width:100%;
+	}
+
+  #numbers [class*='col-xs'] {
+		  width:100%;
+	}
+
+  .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
+      width: 100%;
+  }
+  .contact-form .input:nth-child(2) {
+      margin-left: 0px;
+  }
+
+  .reply-form form .input, .reply-form form .input {
+      width: 100%;
+  }
+  .reply-form form .input:nth-child(2) {
+      margin-left: 0px;
+  }
+
+
+
+  .blog-author .media .media-left {
+      display: block;
+      padding-right: 0;
+      margin-bottom: 20px;
+  }
+  .blog-author .media {
+      text-align: center;
+  }
+  .blog-author .media .media-heading .author-social {
+      margin-top: 10px;
+      float: none;
+  }
+  .blog-author .media .media-left img {
+      margin: auto;
+  }
+
+  .blog-comments .media .media {
+      margin:0px -15px;
+  }
+}
+
+
+
+/*------------------------------------*\
+	Owl theme
+\*------------------------------------*/
+
+/* -- dots -- */
+
+.owl-theme .owl-dots .owl-dot span {
+    border: none;
+    background: #EEE;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #e53935;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+	  background: #e53935;
+	  width:20px;
+}
+
+/* -- nav -- */
+
+.owl-theme .owl-nav {
+    opacity: 0;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+.owl-theme:hover .owl-nav {
+    opacity: 1;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background: #e53935;
+    color: #FFF;
+  	padding: 0px;
+  	width: 50px;
+  	height: 50px;
+  	border-radius:3px;
+  	line-height: 50px;
+  	margin: 0;
+}
+
+.owl-theme .owl-prev {
+    left: 0px;
+}
+
+.owl-theme .owl-next {
+    right: 0px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    opacity: 0.8;
+    background: #e53935;
+}
+
+
+/*------------------------------------*\
+	Back to top
+\*------------------------------------*/
+
+#back-to-top {
+  	display:none;
+  	position: fixed;
+  	bottom: 20px;
+  	right: 20px;
+  	width: 50px;
+  	height: 50px;
+  	line-height: 50px;
+  	text-align: center;
+  	background: #e53935;
+  	border-radius:3px;
+  	color: #FFF;
+  	z-index: 9999;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+  	cursor: pointer;
+}
+
+#back-to-top:after {
+    content: "\f106";
+    font-family: 'FontAwesome';
+}
+
+#back-to-top:hover {
+    opacity: 0.8;
+}
+
+/*------------------------------------*\
+	Preloader
+\*------------------------------------*/
+
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #FFF;
+    z-index: 99999;
+}
+
+.preloader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.preloader span {
+    display: inline-block;
+    background-color: #e53935;
+    width: 25px;
+    height: 25px;
+    -webkit-animation: 1s preload ease-in-out infinite;
+            animation: preload 1s ease-in-out infinite;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+    border-radius:50%;
+}
+
+.preloader span:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+
+.preloader span:nth-child(2) {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+}
+
+.preloader span:nth-child(3) {
+    -webkit-animation-delay: 0.15s;
+            animation-delay: 0.15s;
+}
+
+.preloader span:nth-child(4) {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+}
+
+@-webkit-keyframes preload {
+	0% {
+	   -webkit-transform:scale(0);
+	           transform:scale(0);
+	}
+  50% {
+    -webkit-transform:scale(1);
+            transform:scale(1);
+  }
+  100% {
+    -webkit-transform:scale(0);
+            transform:scale(0);
+  }
+}
+
+@keyframes  preload {
+	0% {
+	   -webkit-transform:scale(0);
+	           transform:scale(0);
+	}
+  50% {
+    -webkit-transform:scale(1);
+            transform:scale(1);
+  }
+  100% {
+    -webkit-transform:scale(0);
+            transform:scale(0);
+  }
+}
+
+</style>
+</head>
+
+<body>
+    <header id="home">
+    <div class="bg-img" style="background-image: url('https://ruet-rsr.org/public/storage/sitebasics/TCMS-home-RSR-RUET-8928-8862.jpeg');">
+        <div class="overlay"></div>
+    </div>
+
+    <nav id="nav" class="navbar nav-transparent">
+        <div class="container">
+            <div class="navbar-header">
+    <div class="navbar-brand">
+        <a href="https://ruet-rsr.org">
+            <img class="logo" src="https://ruet-rsr.org/public/storage/sitebasics/TCMS-logo-TEAMCMS-4048.png" alt="logo">
+            <img class="logo-alt" src="https://ruet-rsr.org/public/storage/sitebasics/TCMS-logo-alt-TEAMCMS-8141.png" alt="logo">
+        </a>
+    </div>
+
+    <div class="nav-collapse">
+        <span></span>
+    </div>
+</div>
+
+<ul class="main-nav nav navbar-nav navbar-right">
+    <li><a href="https://ruet-rsr.org">Home</a></li>
+    <li class="has-dropdown"><a href="#!">Members</a>
+        <ul class="dropdown">
+            <li><a href="https://ruet-rsr.org/committee">Committe Members</a></li>
+            <li><a href="https://ruet-rsr.org/members">Current Members</a></li>
+            <li><a href="https://ruet-rsr.org/alumnis">Alumni Members</a></li>
+        </ul>
+    </li>
+    <li><a href="https://ruet-rsr.org/events">Events</a></li>
+    <li><a href="https://ruet-rsr.org/blogs">Blogs</a></li>
+    <li><a href="https://ruet-rsr.org/about">About Us</a></li>
+        <li class="has-dropdown"><a href="#!"><i class="fa fa-sign-in"></i></a>
+        <ul class="dropdown">
+            <li><a href="https://ruet-rsr.org/login">Login</a></li>
+            <li><a href="https://ruet-rsr.org/register">Sign Up</a></li>
+        </ul>
+    </li>
+    </ul>
+<form id="logout-form" action="https://ruet-rsr.org/logout" method="POST" style="display: none;"><input type="hidden" name="_token" value="S0aC3bGSJj2t21jJN1YRZ9mkmoaG6zUThnnojtUn"></form>
+        </div>
+    </nav>
+
+    <div class="home-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="home-content">
+                        <h1 class="white-text">Robotic Society of RUET</h1>
+                        <p class="white-text">Robotic Society of RUET (RSR) is a place for robotics and automation students, enthusiasts and hobbyists from RUET. It facilitates collaboration, skill sharing and learning among the members focusing both professional skill development and competitive programs organized around the country and abroad.</p>
+                        <a href="https://ruet-rsr.org/about"><button class="main-btn">Learn More</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+    <div class="container-fluid bullete">
+    <div class="bullete-box text-center p-1">
+        <span class="m-0 p-1">News Bulletin</span>
+    </div>
+    <div class="bullete-rail p-1">
+        <marquee class="news" direction="left">
+                        RSR-RUET is requesting all members to sign up to the new website! &bull;
+                        Robotic Society of RUET has launched new website! 
+                    </marquee>
+    </div>
+</div>
+
+<div id="blog" class="section md-padding bg-grey">
+    <div class="container">
+        <div class="row">
+            <div class="section-header text-center">
+                <h2 class="title">Recent Blogs</h2>
+            </div>
+    <div class="col-md-4">
+    <div class="blog">
+        <div class="blog-img">
+                        <img class="img-responsive card-image" src="https://ruet-rsr.org/public/storage/blogs/TCMS-blog-Image-Processing-for-dummies-080716040620-4944-DG-4197.jpeg" alt="Image Processing for dummies">
+        </div>
+        <div class="blog-content">
+            <ul class="blog-meta">
+                <li><i class="fa fa-user"></i>Tahiya Zarin Medha</li>
+                <li><i class="fa fa-clock-o"></i>04 June, 2020</li>
+            </ul>
+            <a href="https://ruet-rsr.org/blog/Image-Processing-for-dummies-080716040620"><h3 style="font-size:16px">Image Processing for dummies...</h3></a>
+            <p style="overflow:hidden">
+
+            By now,
+            almost everyone knows the term “image processing”. From editing photos that we
+            take ev...</p>
+            <a href="https://ruet-rsr.org/blog/Image-Processing-for-dummies-080716040620">Read more <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
+ </div>
+</div>
+</div>
+
+
+<div id="blog" class="section md-padding bg-grey-deep">
+    <div class="container">
+        <div class="row">
+            <div class="section-header text-center">
+                <h2 class="title">Recent Events</h2>
+            </div>
+            <div id="event-carousel" class="owl-carousel owl-theme">
+                                    <div class="row m-4 event">
+    <div class="col-md-4 px-0 mx-0">
+        <img class="img-responsive card-image" src="https://ruet-rsr.org/public/storage/events/TCMS-Events-Poster-Workshop-on-Electronics-in-Robotics-Elementary--105443220522-2205-DG-6548.png">
+                
+    </div>
+    <div class="col-md-8 p-4">
+        <a href="https://ruet-rsr.org/event/Workshop-on-Electronics-in-Robotics-Elementary--105443220522"><h3>Workshop on &quot;Electronics in Robotics: Elementary&quot;</h3></a>
+        <p>Fill the form for free registration:&nbsp;https://forms.gle/sdnNzGwHcwQtuPvp7Who does not love robots and automation? Did you ever dreamt of a robot t...</p>
+        <ul class="event-meta">
+                        <li><i class="fa fa-clock-o"></i>May 27, 2022</li>
+        </ul>
+        <div class="event-links">
+            <a href="https://ruet-rsr.org/event/Workshop-on-Electronics-in-Robotics-Elementary--105443220522">Browse Event <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" target="_blank">None <i class="fa fa-external-link"></i></a>
+                    </div>
+    </div>
+</div>                                    <div class="row m-4 event">
+    <div class="col-md-4 px-0 mx-0">
+        <img class="img-responsive card-image" src="https://ruet-rsr.org/public/storage/events/TCMS-Events-Poster-Robotronics-2-0-111755090522-3818-DG-4952.jpeg">
+                
+    </div>
+    <div class="col-md-8 p-4">
+        <a href="https://ruet-rsr.org/event/Robotronics-2-0-111755090522"><h3>Robotronics 2.0</h3></a>
+        <p>Robotronics is going to be launched for the second time as "Robotronics 2.0". So get yourself ready and prepared for exciting competitions like Mud Ro...</p>
+        <ul class="event-meta">
+                        <li><i class="fa fa-clock-o"></i>Jun 29, 2022 to Jun 30, 2022</li>
+        </ul>
+        <div class="event-links">
+            <a href="https://ruet-rsr.org/event/Robotronics-2-0-111755090522">Browse Event <i class="fa fa-arrow-right"></i></a>
+                        <a href="https://web.facebook.com/events/1181317225739688" target="_blank">Facebook Event <i class="fa fa-external-link"></i></a>
+                        <a href="https://robotronics.mteruet.com/" target="_blank">Event Website <i class="fa fa-external-link"></i></a>
+                    </div>
+    </div>
+</div>                            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="team" class="section md-padding">
+    <div class="container">
+        <div class="row">
+            <div class="section-header text-center">
+                <h2 class="title">Committee Members</h2>
+            </div>
+            <div id="team-carousel" class="owl-carousel owl-theme">
+                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1608005-2022-06-19-134454-6156.jpeg" alt="ROKNUZZAMAN ">
+    </div>
+    <div class="team-content">
+        <h3>ROKNUZZAMAN </h3>
+        <span>President</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608005" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1608026-2022-06-19-153840-9749.jpeg" alt="Shorif Ul Islam">
+    </div>
+    <div class="team-content">
+        <h3>Shorif Ul Islam</h3>
+        <span>Vice-president</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608026" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/Bu4n1ngF1ag/" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1608010-2020-05-07-222733-1047.jpeg" alt="Md. Sihab Uddin">
+    </div>
+    <div class="team-content">
+        <h3>Md. Sihab Uddin</h3>
+        <span>General Secretary</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608010" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/sihab.uddin.1608010/" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://github.com/thisissihab" data-toggle="tooltip" data-placement="bottom" title="github" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/md-sihab-uddin-b35655176/" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1608014-2020-06-02-080302-8863.png" alt="Shahid Ahamed Hasib">
+    </div>
+    <div class="team-content">
+        <h3>Shahid Ahamed Hasib</h3>
+        <span>Organizing Secretary</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608014" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/ShahidAhamed.Hasib" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://github.com/ShahidHasib586" data-toggle="tooltip" data-placement="bottom" title="github" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shahid-ahamed-hasib-040591118/?senderId=goyeahia" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1608001-2020-03-30-180000-3552.jpeg" alt="Ak Niloy">
+    </div>
+    <div class="team-content">
+        <h3>Ak Niloy</h3>
+        <span>Technical Secretary (Hardware)</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608001" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/AKNiloy" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://github.com/AKNiloy" data-toggle="tooltip" data-placement="bottom" title="github" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/md-abul-kashem-niloy-485b5b14b/" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1608009-2020-05-31-220118-4806.jpeg" alt="Jalal Uddin">
+    </div>
+    <div class="team-content">
+        <h3>Jalal Uddin</h3>
+        <span>Technical Secretary (Software)</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608009" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://facebook.com/dgvai.hridoy" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://github.com/dgvai" data-toggle="tooltip" data-placement="bottom" title="github" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://instagram.com/dgshinoda" data-toggle="tooltip" data-placement="bottom" title="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/dgvai" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://medium.com/@dgshinoda" data-toggle="tooltip" data-placement="bottom" title="medium" target="_blank"><i class="fa fa-medium"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1608013-2022-06-19-202457-3680.jpeg" alt="Tansu Sila Haque">
+    </div>
+    <div class="team-content">
+        <h3>Tansu Sila Haque</h3>
+        <span>Treasurer</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608013" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/tansu.hoq" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://github.com/tansuhaque" data-toggle="tooltip" data-placement="bottom" title="github" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/tansuhoq/" data-toggle="tooltip" data-placement="bottom" title="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/tansu-haque-15a920177/" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1608015-2020-06-01-102953-4981.jpeg" alt="Iffat Fahmida">
+    </div>
+    <div class="team-content">
+        <h3>Iffat Fahmida</h3>
+        <span>Joint Organizing Secretary</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608015" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/default-photo.jpg" alt="Yeahia Sarker">
+    </div>
+    <div class="team-content">
+        <h3>Yeahia Sarker</h3>
+        <span>Research &amp; Publication Manager</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608020" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1608028-2020-06-02-134540-2028.jpeg" alt="Wasif Ahmed">
+    </div>
+    <div class="team-content">
+        <h3>Wasif Ahmed</h3>
+        <span>Assistant Technical Secretary (Hardware)</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1608028" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://web.facebook.com/wasifahmed951" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://github.com/wasifahmed951" data-toggle="tooltip" data-placement="bottom" title="github" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/wasif-ahmed-09bb99155/" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://join.skype.com/invite/vhmS1x8NYKtU" data-toggle="tooltip" data-placement="bottom" title="skype" target="_blank"><i class="fa fa-skype"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1708058-2020-06-02-215901-8970.jpeg" alt="Antar Mazumder">
+    </div>
+    <div class="team-content">
+        <h3>Antar Mazumder</h3>
+        <span>Assistant Technical Secretary (Software)</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1708058" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="www.facebook.com/antar.xa" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1708048-2022-06-19-204526-5368.jpeg" alt="Tahiya Zarin Medha">
+    </div>
+    <div class="team-content">
+        <h3>Tahiya Zarin Medha</h3>
+        <span>Additional Treasurer</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1708048" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100010158001916" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/tahiya-zarin-medha-09991519a/" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1708010-2022-06-19-210703-4968.jpeg" alt="Nazia Hasan Dana">
+    </div>
+    <div class="team-content">
+        <h3>Nazia Hasan Dana</h3>
+        <span>Development &amp; Planning Manager</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1708010" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1708039-2022-06-19-145423-3852.jpeg" alt="Arifur Rahman Anik">
+    </div>
+    <div class="team-content">
+        <h3>Arifur Rahman Anik</h3>
+        <span>Technical Co-ordinator (Hardware)</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1708039" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009455084876" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://github.com/ArifAnik" data-toggle="tooltip" data-placement="bottom" title="github" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="www.linkedin.com/in/arifur-rahman-anik-188697176" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1708037-2022-06-19-145243-4063.jpeg" alt="Md Junayed">
+    </div>
+    <div class="team-content">
+        <h3>Md Junayed</h3>
+        <span>Technical Co-ordinator (Software)</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1708037" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1708033-2022-06-19-210408-6167.jpeg" alt="Md. Fahad Sahed">
+    </div>
+    <div class="team-content">
+        <h3>Md. Fahad Sahed</h3>
+        <span>Design Manager</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1708033" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/fahad.sahed/" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/fahad-sahed-a14133169/" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/FahadSahed" data-toggle="tooltip" data-placement="bottom" title="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1708027-2022-06-19-223622-3829.jpeg" alt="Mahfuz Rayhan">
+    </div>
+    <div class="team-content">
+        <h3>Mahfuz Rayhan</h3>
+        <span>IT Manager</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1708027" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="fb.com/mahfuzrayhansayshi" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/default-photo.jpg" alt="Faiaz Ahsan">
+    </div>
+    <div class="team-content">
+        <h3>Faiaz Ahsan</h3>
+        <span>Secretary of Liaison</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1708009" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/faiaz.ahsan.39" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1708004-2022-06-19-162607-4195.jpeg" alt="Md Maruf">
+    </div>
+    <div class="team-content">
+        <h3>Md Maruf</h3>
+        <span>Joint Secretary of Liaison</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1708004" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/maruf.ruet" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/default-photo.jpg" alt="Hasin Motawassamin">
+    </div>
+    <div class="team-content">
+        <h3>Hasin Motawassamin</h3>
+        <span>Additional Technical Co-ordinator</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1908016" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1908058-2022-06-27-222206-6867.jpeg" alt="Enamul Hasan Shagato">
+    </div>
+    <div class="team-content">
+        <h3>Enamul Hasan Shagato</h3>
+        <span>Additional Technical Co-ordinator</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1908058" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/default-photo.jpg" alt="Abul Basar">
+    </div>
+    <div class="team-content">
+        <h3>Abul Basar</h3>
+        <span>Additional Development &amp; Planning Manager</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1908051" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1908049-2022-02-07-191431-9344.jpeg" alt="Jubair Ahamed">
+    </div>
+    <div class="team-content">
+        <h3>Jubair Ahamed</h3>
+        <span>Membership Co-ordinator</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1908049" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/jubayer.jubs/" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/jubayer_saikat/" data-toggle="tooltip" data-placement="bottom" title="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jubair-1805/?fbclid=IwAR3BSuxZgBnBZ2FQN3fkchRxTXqNY9eULOidcYdgzAUKZJVQb0MHKuziRMg" data-toggle="tooltip" data-placement="bottom" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1908047-2022-06-19-205450-7922.jpeg" alt="Subrota Sarker Rabin">
+    </div>
+    <div class="team-content">
+        <h3>Subrota Sarker Rabin</h3>
+        <span>Membership Co-ordinator</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1908047" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+                <a href="https://www.facebook.com/subrota.sarker.148" data-toggle="tooltip" data-placement="bottom" title="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1908054-2022-06-19-211325-3233.jpeg" alt="Mohsiul Mumit Alik">
+    </div>
+    <div class="team-content">
+        <h3>Mohsiul Mumit Alik</h3>
+        <span>Assistant Membership Co-ordinator</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1908054" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                                <div class="team ">
+    <div class="team-img">
+        <img class="img-responsive" src="https://ruet-rsr.org/public/storage/users/avatars/TCMS-avatar-user-1908036-2022-06-19-224125-5795.jpeg" alt="Md Saidain Islam Polin">
+    </div>
+    <div class="team-content">
+        <h3>Md Saidain Islam Polin</h3>
+        <span>Assistant Membership Co-ordinator</span>
+    </div>
+    <div class="team-social">
+        <a href="https://ruet-rsr.org/member/1908036" data-toggle="tooltip" data-placement="bottom" title="View Profile"><i class="fa fa-external-link"></i></a>
+            </div>
+</div>                            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="portfolio" class="section md-padding bg-grey">
+<div class="container">
+    <div class="row">
+        <div class="section-header text-center">
+            <h2 class="title">Image Gallery</h2>
+        </div>  
+                <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-3691-DG-4888.jpeg" alt="RSR Event Photo">
+            <div class="overlay"></div>
+            <div class="work-content">
+                <span>Caption</span>
+                <h3>RSR Event Photo</h3>
+                <div class="work-link">
+                    <a class="lightbox" href="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-3691-DG-4888.jpeg"><i class="fa fa-search-plus"></i></a>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-7196-DG-8887.jpeg" alt="RSR Event Photo">
+            <div class="overlay"></div>
+            <div class="work-content">
+                <span>Caption</span>
+                <h3>RSR Event Photo</h3>
+                <div class="work-link">
+                    <a class="lightbox" href="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-7196-DG-8887.jpeg"><i class="fa fa-search-plus"></i></a>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-4806-DG-8943.jpeg" alt="RSR Event Photo">
+            <div class="overlay"></div>
+            <div class="work-content">
+                <span>Caption</span>
+                <h3>RSR Event Photo</h3>
+                <div class="work-link">
+                    <a class="lightbox" href="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-4806-DG-8943.jpeg"><i class="fa fa-search-plus"></i></a>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-7456-DG-9447.jpeg" alt="RSR Event Photo">
+            <div class="overlay"></div>
+            <div class="work-content">
+                <span>Caption</span>
+                <h3>RSR Event Photo</h3>
+                <div class="work-link">
+                    <a class="lightbox" href="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-7456-DG-9447.jpeg"><i class="fa fa-search-plus"></i></a>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-3115-DG-2226.jpeg" alt="Inter University Robotech  Fest-2016">
+            <div class="overlay"></div>
+            <div class="work-content">
+                <span>Caption</span>
+                <h3>Inter University Robotech  Fest-2016</h3>
+                <div class="work-link">
+                    <a class="lightbox" href="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-3115-DG-2226.jpeg"><i class="fa fa-search-plus"></i></a>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-8472-DG-5994.jpeg" alt="European Rover Challenge 2018">
+            <div class="overlay"></div>
+            <div class="work-content">
+                <span>Caption</span>
+                <h3>European Rover Challenge 2018</h3>
+                <div class="work-link">
+                    <a class="lightbox" href="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-8472-DG-5994.jpeg"><i class="fa fa-search-plus"></i></a>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-7430-DG-3475.jpeg" alt="Robotech Exhibition 2018">
+            <div class="overlay"></div>
+            <div class="work-content">
+                <span>Caption</span>
+                <h3>Robotech Exhibition 2018</h3>
+                <div class="work-link">
+                    <a class="lightbox" href="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-7430-DG-3475.jpeg"><i class="fa fa-search-plus"></i></a>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-3084-DG-6951.jpeg" alt="RSR Event Photo">
+            <div class="overlay"></div>
+            <div class="work-content">
+                <span>Caption</span>
+                <h3>RSR Event Photo</h3>
+                <div class="work-link">
+                    <a class="lightbox" href="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-3084-DG-6951.jpeg"><i class="fa fa-search-plus"></i></a>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-4 col-xs-6 work">
+            <img class="img-responsive" src="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-4600-DG-7616.jpeg" alt="Mud-Rover Challenge in Robotronics 2019">
+            <div class="overlay"></div>
+            <div class="work-content">
+                <span>Caption</span>
+                <h3>Mud-Rover Challenge in Robotronics 2019</h3>
+                <div class="work-link">
+                    <a class="lightbox" href="https://ruet-rsr.org/public/storage/gallery/TCMS-gallery-4600-DG-7616.jpeg"><i class="fa fa-search-plus"></i></a>
+                </div>
+            </div>
+        </div>
+            </div>
+</div>
+</div><div id="contact" class="section md-padding">
+    <div class="container">
+        <div class="row">
+            <div class="section-header text-center">
+                <h2 class="title">Contact Us</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="col-sm-12">
+                        <div class="contact">
+                            <i class="fa fa-phone"></i>
+                            <p>+88 01796 405 140</p>
+                        </div>
+                    </div>
+        
+                    <div class="col-sm-12">
+                        <div class="contact">
+                            <i class="fa fa-envelope"></i>
+                            <p>rsr.roboticsocietyofruet@gmail.com</p>
+                        </div>
+                    </div>
+        
+                    <div class="col-sm-12">
+                        <div class="contact">
+                            <i class="fa fa-map-marker"></i>
+                            <p>RUET Area, Rajshahi 6204</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <form class="base-form" action="https://ruet-rsr.org/contact" method="POST">
+                        <input type="text" class="input" name="name" placeholder="Name">
+                        <input type="email" class="input" name="email" placeholder="Email">
+                        <input type="text" class="input" name="subject" placeholder="Subject">
+                        <textarea class="input" name="message" placeholder="Message"></textarea>
+                        <input type="hidden" name="_token" value="S0aC3bGSJj2t21jJN1YRZ9mkmoaG6zUThnnojtUn">                        <button class="main-btn">Send message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="numbers" class="section sm-padding">
+    <div class="bg-img" style="background-image: url('https://ruet-rsr.org/public/storage/sitebasics/default-home-counter-bg.jpg');">
+        <div class="overlay"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-xs-6">
+                <div class="number">
+                    <i class="fa fa-users"></i>
+                    <h3 class="white-text"><span class="counter">34</span></h3>
+                    <span class="white-text">Current Members</span>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <div class="number">
+                    <i class="fa fa-graduation-cap"></i>
+                    <h3 class="white-text"><span class="counter">23</span></h3>
+                    <span class="white-text">Alumni Members</span>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <div class="number">
+                    <i class="fa fa-rss"></i>
+                    <h3 class="white-text"><span class="counter">7</span></h3>
+                    <span class="white-text">Blog Posts</span>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <div class="number">
+                    <i class="fa fa-file"></i>
+                    <h3 class="white-text"><span class="counter">2</span></h3>
+                    <span class="white-text">Events Arranged</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+    <footer id="footer" class="sm-padding bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-3">
+                    <div class="footer-logo">
+                        <a href="https://ruet-rsr.org"><img src="https://ruet-rsr.org/public/storage/sitebasics/TCMS-logo-alt-TEAMCMS-8141.png" alt="logo"></a>
+                        <p>Robotic Society of RUET (RSR) is a place for robotics and automation students, enthusiasts and hobbyists from RUET. It facilitates collaboration, skill sharing and learning among the members focusing both professional skill development and competitive programs organized around the country and abroad.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-heading">
+                    <p>Quick Links</p>
+                    <ul>
+                        <li><a href="https://ruet-rsr.org">Home</a></li>
+                        <li><a href="https://ruet-rsr.org/events">Upcoming Events</a></li>
+                        <li><a href="https://ruet-rsr.org/blogs">Blogs</a></li>
+                        <li><a href="https://ruet-rsr.org/about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-heading">
+                    <p>Teams</p>
+                    <ul>
+                        <li><a href="https://ruet-rsr.org/members">Current Members</a></li>
+                        <li><a href="https://ruet-rsr.org/committee">Committee Members</a></li>
+                        <li><a href="https://ruet-rsr.org/alumnis">Alumnis</a></li>
+                        <li><a href="https://ruet-rsr.org/login">Login</a></li>
+                        <li><a href="https://ruet-rsr.org/register">Registration</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="footer-follow">
+                                                <li><a href="https://www.facebook.com/rsr.ruet" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                                                <li><a href="https://www.facebook.com/groups/311111372414620" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                                                <li><a href="https://www.youtube.com/channel/UCF1yNWxk0x7JlGT4-i3Ngpg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/company/robotic-society-of-ruet" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                    <div class="footer-copyright">
+                        <p>Copyright © 2022 RSR-RUET &bull; Robotic Society of RUET </p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- Back to top -->
+    <div id="back-to-top"></div>
+    <!-- /Back to top -->
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- /Preloader -->
+</body>
+
+
+<!-- jQuery Plugins -->
+<script type="text/javascript" src="https://ruet-rsr.org/public/frontends/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://ruet-rsr.org/public/frontends/js/popper.js"></script>
+<script type="text/javascript" src="https://ruet-rsr.org/public/frontends/js/bootstrap4.min.js"></script>
+<script type="text/javascript" src="https://ruet-rsr.org/public/frontends/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="https://ruet-rsr.org/public/frontends/js/jquery.magnific-popup.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="https://ruet-rsr.org/public/frontends/js/main.js"></script>
+</html>
+<script>
+$(document).ready(function() {
+    $('#event-carousel').owlCarousel({
+		loop:true,
+		margin:15,
+		dots : true,
+        autoplay : true,
+        nav : true,
+		responsive:{
+			0: {
+				items: 1
+			},
+			640:{
+				items: 1
+            },
+            980 : {
+                items: 1
+            }
+		}
+	});
+})
+
+</script>
+<script>
+$(document).ready(function() {
+    $('#team-carousel').owlCarousel({
+		loop:true,
+		margin:15,
+		dots : true,
+        autoplay : true,
+        nav : true,
+		responsive:{
+			0: {
+				items: 1
+			},
+			640:{
+				items: 2
+            },
+            980 : {
+                items: 4
+            }
+		}
+	});
+})
+
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://ruet-rsr.org/public/frontends/js/counterup2.min.js"></script>
+<script>
+    $(document).ready(function () {
+        jQuery(function ($) {
+            "use strict";
+            var counterUp = window.counterUp["default"]; 
+            var $counters = $(".counter");
+
+            $counters.each(function (ignore, counter) {
+                var waypoint = new Waypoint({
+                    element: $(this),
+                    handler: function () {
+                        counterUp(counter, {
+                            duration: 2000,
+                            delay: 16
+                        });
+                        this.destroy();
+                    },
+                    offset: 'bottom-in-view',
+                });
+            });
+        });
+    });
+</script>

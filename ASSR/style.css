@@ -1,0 +1,276 @@
+body{
+
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+   margin: 0;
+  padding: 0;
+
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+header{
+
+}
+section {
+  padding: 5rem 10%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.navbar-light .navbar-nav .nav-item a:hover{
+   font-weight: bold;
+  color: black;
+}
+.navbar-light .navbar-brand{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 10px;
+  color: white;
+}
+.navbar
+{
+    border: 1px solid #ccc;
+}
+.bg-dark{
+  background-color: #330033 !important;
+}
+.home {
+  padding: 0px;
+}
+.home .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60rem;
+  background-size: cover !important;
+  background-position: center !important;
+
+}
+
+.home .slide .content {
+  width: 50rem;
+  padding: 50px 5px;
+}
+.home .slide .content .bttn{
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: #4d004d;
+}
+.home .slide .content h3 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: #444;
+  color: #fff;
+}
+.home .slide .content a{
+  text-decoration: none;
+}
+.home .slide .content p {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #777;
+  color: #eee;
+  padding: 1rem 0;
+}
+
+.swiper-pagination-bullet-active {
+  background: black;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid black;
+  background: #cc99ff;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+}
+.bullete .bullete-box {
+    position: absolute;
+    left: 0;
+    height: 30px;
+    width: 140px;
+    z-index: 989;
+    background-color: black;
+    color: white;
+}
+
+.bullete .bullete-rail {
+    position: absolute;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 988;
+    background-color: #F4F4F4;
+
+}
+
+.subjects .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 2rem;
+  padding: 10px 10px;
+}
+.subjects{
+  text-align: center;
+  padding: 40px 40px;
+}
+.subjects .box-container .box {
+  padding: 3rem 2rem;
+  text-align: center;
+  border: 0.1rem solid black;
+  background: #cc99ff;
+  cursor: pointer;
+}
+
+.subjects .box-container .box:hover {
+  background: black;
+}
+
+.subjects .box-container .box:hover h3 {
+  color: #fff;
+}
+
+.subjects .box-container .box:hover p {
+  color: #eee;
+}
+
+.subjects .box-container .box img {
+  height: 10rem;
+  margin-bottom: .7rem;
+}
+
+.subjects .box-container .box h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: .5rem 0;
+}
+
+.subjects .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
+
+.home-courses .slide {
+  text-align: center;
+  position: relative;
+  background:  black;
+  overflow: hidden;
+}
+
+.home-courses .slide:hover .content {
+  bottom: 0;
+}
+
+.home-courses .slide .image {
+  padding: 2rem;
+}
+
+.home-courses .slide .image img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.home-courses .slide .image h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.home-courses .slide .content {
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  left: 0;
+  background: #330033; //darkblack
+  padding: 2rem 3rem;
+}
+
+.home-courses .slide .content h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+  color: #fff;
+}
+
+.home-courses .slide .content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  color: #eee;
+}
+
+.home-courses .slide .content .btn:hover {
+  background: #444;
+}
+
+
+.footer{
+   background-color: #330033;
+   text-align: center;
+   padding: 15px 10px;
+
+}
+.footer .share a{
+   margin: 0 .3rem;
+   height: 4.5rem;
+   width: 5.5rem;
+   line-height: 4.5rem;
+   border-radius: 50%;
+   font-size: 2rem;
+   color: white;
+   background-color: black;
+   text-decoration: none;
+}
+
+.footer .share a:hover{
+   background-color: #F4F4F4;
+}
+
+.footer .credit{
+   margin-top: 2.5rem;
+   padding:1.5rem;
+   padding-top: 2.5rem;
+   border-top: .1rem solid black;
+   font-size: 2rem;
+   color:black;
+}
+
